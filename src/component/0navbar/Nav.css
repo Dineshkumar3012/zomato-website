@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    padding:10px;
+}
+.container2{
+    width:75%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.col1{
+	width:8.33%;
+	padding:0 15px;
+}
+
+.col2{
+	width:16.66%;
+}
+.col3{
+	width:25%;
+	padding:0 15px;
+}
+
+
+.col4{
+	width:33.33%;
+}
+
+
+.col5{
+	width:41.66%;
+	/* padding:0 15px; */
+}
+
+
+.col6{
+	width:50%;
+	padding:0 15px;
+}
+
+.col7{
+	width:58.33%;
+	padding:0 15px;
+}
+
+
+.col8{
+	width:66.66%;
+	padding:0 15px;
+}
+
+
+.col9{
+	width:75%;
+	padding:0 15px;
+}
+
+
+.col10{
+	width:83.33%;
+	padding:0 15px;
+}
+
+
+.col11{
+	width:91.66%;
+	padding:0 15px;
+}
+
+
+.col12{
+	width:100%;
+	padding:0 15px;
+}
+
+
+#borderContainer{
+    margin-left: 30px;;
+}
+
+.left{
+    display: flex;
+    justify-content:left;
+    align-items: center
+}
+.center{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.right{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.logo-sec{
+    width: 45%;
+}
+.logo-sec img{
+    width:100%;
+}
+
+.input-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 12px 13px;
+    box-shadow: 0 0 4px  #a7a6a6;
+    border-radius: 10px;
+    position: relative;
+}
+.input-sec b{
+    margin: 0 10px;
+
+}
+
+#location{
+    width:50%;
+    border-right:2px solid #c5c2c2;
+}
+
+.location1{
+    color:red;
+    font-size: 19px;
+}
+.search1{
+    color:black;
+    font-size: 19px;
+}
+
+.arrow{
+    position: absolute;
+    top: 18px;
+    left: 200px;
+    color: black;
+    font-size: 12px;
+}
+.input-sec input{
+    border: none;
+    outline: none;
+    width:100%;
+    padding: 3px;
+}
+
+input[placeholder]{
+    font-size: 15px;
+    color:grey;
+}
+
+.login_sec{
+    width:20%;
+}
+
+.login_sec img{
+    width:100%;
+}
+
+.login_sec b{
+    text-decoration:none;
+    color:black;
+    margin-left: 5px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.arrow1{
+    font-size: 12px;
+    font-weight:300;
+    margin-top:5px;
+    margin-left: 10px;
+}
